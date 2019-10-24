@@ -4,6 +4,6 @@ python:
   - 3.8
 
 script:
-  - pytest -m unittest discover test
+  - python -m unittest discover test
 
 
