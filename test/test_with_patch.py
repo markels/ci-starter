@@ -12,7 +12,7 @@ class TestWithPatch(unittest.TestCase):
     def test_tracks_temperature_change(self, mock):
         tracker = TemperatureTracker()
         tracker.record_initial_temperature()
-        self.assertEqual(10, tracker.find_temperature_change())
+        self.assertEqual(20, tracker.find_temperature_change())
 
 
 if __name__ == '__main__':
