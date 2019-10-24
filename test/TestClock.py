@@ -2,6 +2,9 @@ import unittest
 import clock
 from unittest.mock import patch
 
+"""
+Testing to see if the clock returns the correct time using a patch decorator
+"""
 
 class MyTestCase(unittest.TestCase):
 
