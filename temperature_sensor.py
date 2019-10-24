@@ -1,4 +1,5 @@
 import random
+
 class TemperatureSensor(object):
 
     def check_temperature(self):
