@@ -13,7 +13,7 @@ class TestWithMock(unittest.TestCase):
         mock_sensor.configure_mock(**{'check_temperature.return_value': 12})
 
         tracker.record_initial_temperature()
-        mock_sensor.configure_mock(**{'check_temperature.return_value': 22})
+        mock_sensor.configure_mock(**{'check_temperature.return_value': 9999})
         self.assertEqual(10, tracker.find_temperature_change())
 
 
