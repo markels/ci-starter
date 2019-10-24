@@ -11,4 +11,4 @@ class TemperatureTracker:
         self.start_temp = self.sensor.check_temperature()
 
     def find_temperature_change(self):
-        return self.sensor.check_temperature() - self.start_temp
+        return self.sensor.check_temperature() - self.start_temp + 1
